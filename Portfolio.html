@@ -4,96 +4,118 @@
 <meta charset="utf-8">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Omar's Website</title>  
-<link href="style.css" rel="stylesheet" type="text/css"> 
+<title>Omar's Website</title> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+       
+<link href="style_test.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
-<div class="container" id="home">
-   <div class="menu">
-    <ul class="nav">
-     <li style="padding-left:35px" class="p"><a href="#home"><span>Home</span></a></li>
-    <li style="padding-left:35px" class="q"><a href="#aboutme">About Me</a></li>   
-    <li style="padding-left:35px" class="r"><a href="#projects">Projects</a></li> 
-    <li style="padding-left:35px" class="s"><a href="#contactme">Contact Me</a></li> 
+   
+<div class="container-fluid" id="home">
+   <div class="row">
+       <div class="col-lg-6">
+     <ul class="nav">
+    <li  class="p"><a style="padding-left:15px" href="#home"><span>Home</span></a></li>
+    <li  class="q"><a style="padding-left:15px" href="#aboutme">About Me</a></li>   
+    <li  class="r"><a style="padding-left:15px" href="#projects">Projects</a></li>
+    <li  class="s"><a style="padding-left:15px" href="#contactme">Contact Me</a></li>
+           </ul>
+           </div>
+           </div>   
+       </div>
     
-
-  
-    </ul>
+    
+    <div class="container-fluid2">
+       <div class="row2">
+           <div class="col-12">
+           <div class="lap">
+    <img src="omar.jpg">
         </div>
-    
-      <div class="greet">
-          <h1 class="o">OMAR AWADALLAH</h1>
+          </div>    
+      </div>
+        
+        <div class="container-fluid3">
+       <div class="row3">
+             <h1 class="o">OMAR AWADALLAH</h1>
           <div class="desc">
               <ul>
            <li class="f" >Computer Eng. Student</li>
     <li class="b">Passionate</li>
     <li >Innovative</li>
     </ul>
+              </div>
+      <div class="resume">
+     <a href="https://drive.google.com/file/d/1J18zvSYzHSZ7ijFIE3lAF5dRmk8aVvq3/view?usp=sharing" class="btn">My Resume</a>
+    </div>        
     </div>
-         <div class="resume">
-            <a href="https://drive.google.com/open?id=16dh5Q0zyOeBMJx6075lmDoOT1S7G5TkA" class="btn">My Resume</a>
-    </div>
-    </div>
-   
-          <div class="lap">
-    <img src="neon-removebg-preview.png">
         </div>
     
- </div> 
-   
-       
-    <div  class="about" id="aboutme">
+    </div>
+
+    <div class="container-fluid4" id="home">
+      <div  class="row4" id="aboutme">
+          <div class="col-12">
     <form>
-        
         <h1 class="qqq">ABOUT ME</h1>
         <span class="aaa">Computer Engineering student that is skilled in both hardware and software areas. Participated in several projects and excited to learn new skills everyday. Able to work with electrical components, design PCBs and use lab equipment (oscilloscopes, generators, etc.) to test electrical designs. Ability to code in C language/VHDL, understands Assembly language and capable of using Intel Quartus Prime software to implement designs using FPGAs and ARM cortex. Expertise in Java language. As a hardware engineer who is not exposed to all software skills, I was able to learn HTML and CSS on my own and build this website to demonstrate my learning.</span>  
     </form>  
+              
+              </div>
      <div class="arrow">
          <div class="hover">
         <a href="#home"><img src="arrow.png"></a>
         </div>          
     </div>
     </div>
+    </div>
+       <div class="container-fluid5">
     <div class="projects" id="projects">
     <h3>MY PROJECTS</h3>
         
-        
-    <div class="box1">
-    <div class="imagebox">  
-        <img src="hat.jpg"> <!-- all photos 2932x2932px-->
-        <p class="img_description">THIRD-I 2020</p>
+    <div class="container"> 
+    <div class="gallery">
+  <a target="_blank" href="http://omarawadallah.net/ThirdEye.html">
+    <img src="hat.jpg" alt="hat" width="600" height="400">
+  </a>
+  <div class="desc">THIRD-I 2020</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="nature1.jpg" alt="mountain" width="600" height="400">
+  </a>
+  <div class="desc">Test</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="nature2.jpg" alt="forest" width="600" height="400">
+  </a>
+  <div class="desc">Test</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="pexels-photo-1236701.jpg" alt="street" width="600" height="400">
+  </a>
+  <div class="desc">Test</div>
+</div>
     </div>
-    </div>
-        
-        
-    <div class="box"><div class="imagebox">
-    <img src="nature1.jpg">
-       <p class="img_description">TEST</p>
-        </div> </div> <!-- all photos 2932x2932px-->
-        
-        
-    <div class="box"><div class="imagebox">
-    <img src="nature2.jpg">
-       <p class="img_description">TEST</p>
-        </div> <!-- all photos 2932x2932px--> 
-    </div>
-        
-        
-    <div class="box2"><div class="imagebox">
-    <img src="pexels-photo-1236701.jpg">
-        <p class="img_description">TEST</p>
-        </div> <!-- all photos 2932x2932px--> 
-    </div>
+    </div>   
     </div>
     
+   
+    <div class="container-fluid7">
     <div class="contacts" id="contactme">
     <h4>CONTACT ME</h4>
     <div class="icon">
     <a href="https://www.linkedin.com/in/omar-awadallah-852b841a1"><img src="linkedin-logo-png-transparent-background-4.png"></a>
-        <a href="mailto:omar.awa4823@gmail.com"><img src="download-icon-white-png-3.png"></a>
+        <a href="mailto:oawadall@uwo.ca"><img src="download-icon-white-png-3.png"></a>
         <a href="https://github.com/Omar371"><img src="github.png"></a>
     </div>
     <p>©Omar Awadallah 2020-All rights reserved</p>
+    </div>
     </div>
  </body>
 </html>
