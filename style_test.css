@@ -70,6 +70,18 @@ html {scroll-behavior: smooth;}
 
 .row3 h1{
     padding-top:10px;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate{
+    0%,50%{
+        color:darkcyan;
+        text-shadow: 0 0 10px darkcyan; 
+    }
+    0%,100%{
+        color:#fff;
+        text-shadow: 0 0 10px darkcyan;
+    }
 }
 
 .o{ 
@@ -152,6 +164,8 @@ html {scroll-behavior: smooth;}
 }
 
 
+
+
 .row4 form span{
      transform:skewY(-4deg);
     color:black;
@@ -182,20 +196,34 @@ html {scroll-behavior: smooth;}
 
 
 .projects{
-      
     /*background:linear-gradient(to right, #002D64, #007F9F, #01D0E0);*/
     background:#252627;
-  padding-bottom:100px;
-    
+   padding-bottom:100px;
+   
 }
 
 .projects h3{
   color:white;
-text-align:center;
+   text-align:center;
     padding-top:60px;
-    font-size:35px;
-     margin-bottom:30px;
+    font-size:35px; 
+   animation: animate1 2s linear infinite; 
 }
+
+@keyframes animate1{
+    0%,50%{
+        text-shadow: 0 0 10px #ED5565; 
+       font-size:38px;
+    }
+    0%,100%{
+        text-shadow: 0 0 10px white; 
+        font-size:35px;
+    }
+    
+}
+
+
+
 .container{
       display: flex;
   align-items: center;
@@ -262,8 +290,6 @@ div.desc {
     text-align:center;
     color:grey;
 }
-
-
 
 
 
