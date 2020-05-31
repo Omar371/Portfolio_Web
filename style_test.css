@@ -186,6 +186,7 @@ html {scroll-behavior: smooth;}
     /*background:linear-gradient(to right, #002D64, #007F9F, #01D0E0);*/
     background:#252627;
   padding-bottom:100px;
+    
 }
 
 .projects h3{
@@ -226,10 +227,11 @@ div.desc {
     color:white;
 }
 
+.
 
 .contacts{
-    width:100%;
-    background:white;
+    transform:skewY(-4deg);
+    
 }
 
 .contacts h4{
@@ -252,7 +254,7 @@ div.desc {
 .contacts img{
     width:35px;
     height:35px;
-    margin:40px 30px;
+    margin:25px 30px;
     cursor:pointer;
 }
 
@@ -307,8 +309,8 @@ div.desc {
         margin-bottom:65px;
     }
     .arrow img{
-        width:25px;
-        height:25px;
+        width:30px;
+        height:30px;
     }
     
     .projects h3{
